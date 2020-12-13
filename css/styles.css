@@ -1,0 +1,168 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: bolder;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+.navbar {
+  padding: 0.5rem 0 3.9rem;
+}
+
+.navbar-brand {
+  font-family: 'Ranchers', cursive;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item {
+  padding: 0 10px 0;
+}
+
+.download {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.img-1 {
+  width: 60%;
+  transform: rotate(25deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+.features-row {
+  text-align: center;
+  padding: 8rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: #000;
+  font-size: 1.5em;
+}
+
+#features {
+  color: #8f8f8f;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ff4c68;
+  padding: 8% 0;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2% 1%;
+}
+
+.testimonial-text {
+  padding-right: 20%;
+  padding-left: 20%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+#pricing {
+  text-align: center;
+  padding: 5%;
+}
+
+.price {
+  padding: 2%;
+  font-family: 'Comfortaa', cursive;
+}
+
+.head {
+  font-weight: bold;
+  color: #8f8f8f;
+}
+
+.card {
+  border-style: dotted;
+  border-radius: 2%;
+}
+
+#para {
+  color: #8f8f8f;
+}
+
+.card-body {
+  background-color: #ff4c68;
+  color: #fff;
+  font-weight: bold;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+
+}
+.ctac{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-bottom: 3%;
+}
+.dbtn{
+  margin: 0 1% 0 2%;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding-top: 5%;
+}
+.f-icon{
+  color: #000;
+  margin: 0px 5px 0px 5px;
+}
+.P-Footer{
+  margin-top: 20px;
+  color: #8f8f8f;
+}
+/* Responsive */
+@media (max-width:991px) {
+  .img-1 {
+    position: static;
+    transform: rotate(0);
+  }
+}
